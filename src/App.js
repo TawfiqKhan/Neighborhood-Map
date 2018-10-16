@@ -180,7 +180,7 @@ class App extends Component {
           listItemClick={this.listItemClick}
           filterPlace={this.filterPlace}
         />
-        <div id="map" />
+        <div id="map" role="application" />
       </main>
     );
   }

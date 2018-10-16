@@ -7,7 +7,7 @@ class Sidebar extends Component {
         <input
           role="search"
           tabIndex={0}
-          aria-labelledby="filter"
+          aria-label="Filter Location"
           className="search-field"
           type="text"
           placeholder="Filter Location"
@@ -21,11 +21,16 @@ class Sidebar extends Component {
           {this.props.places.map(place => (
             <li
               className="listitems"
-              role="button"
+              role="option"
               key={place.venue.id}
               tabIndex={0}
               onClick={() => {
                 this.props.listItemClick(place);
+              }}
+              onKeyPress={event => {
+                if (event.key === "Enter") {
+                  this.props.listItemClick(place);
+                }
               }}
             >
               <h3>{place.venue.name}</h3>

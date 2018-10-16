@@ -19,6 +19,12 @@ To get started you you need to do the following
 
 You can click on each location and  a infowifdow will appear with some details about the place. You can also filter out the list of places and find your chosen one.
 
+# Build Mode
+
+The app contains a service worker which only works in the build mode. So in order to test the service worker please follow these steps.
+
+* npm run build
+* npm run deploy to depoloy the specified address.
 
 ## Building the App
 The project was the last hurdle towards the completion of the Front-End Web Developer Nanodegree of Udacity. For creating the app I took help from the udacity community and also the coruse materials on react and google map helped a lot. The app uses third party data from [Foursquare](https://developer.foursquare.com/).
