@@ -1,6 +1,6 @@
 # Neighborhood Map (React) Project
 
-The project was done as part of the requirement for [Udacity Front-End Web Developer](https://www.udacity.com/course/front-end-web-developer-nanodegree--nd001) Nanodegree. You can view a live demo of the App by visiting [Neighborhood Map App](http://broad-fan.surge.sh//)
+The project was done as part of the requirement for [Udacity Front-End Web Developer](https://www.udacity.com/course/front-end-web-developer-nanodegree--nd001) Nanodegree. You can view a live demo of the App by visiting [Neighborhood Map App](http://cagey-carpenter.surge.sh//)
 
 # About the APP
 
