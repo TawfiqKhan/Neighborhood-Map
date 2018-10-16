@@ -20,8 +20,5 @@ To get started you you need to do the following
 You can click on each location and  a infowifdow will appear with some details about the place. You can also filter out the list of places and find your chosen one.
 
 
-## Regarding searching
-The backend API uses a fixed set of cached search results and is limited to a particular set of search terms, which can be found in [SEARCH_TERMS.md](SEARCH_TERMS.md). That list of terms are the _only_ terms that will work with the backend, so don't be surprised if your searches for Basket Weaving or Bubble Wrap don't come back with any results.
-
 ## Building the App
 The project was the last hurdle towards the completion of the Front-End Web Developer Nanodegree of Udacity. For creating the app I took help from the udacity community and also the coruse materials on react and google map helped a lot. The app uses third party data from [Foursquare](https://developer.foursquare.com/).
