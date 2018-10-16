@@ -1,0 +1,71 @@
+ .App {
+     text-align: center;
+     height: 100vh;
+     display: flex;
+     flex-flow: row nowrap;
+}
+ .locationList {
+     padding: 0;
+     margin: 5px;
+}
+ .sidebar {
+     width:25%;
+}
+ .listitems {
+     list-style: none;
+     width: 100%;
+     font-size: 1em;
+     padding: 3px;
+     margin-top: 1em;
+     cursor: pointer;
+     text-transform: uppercase;
+     text-align: center;
+}
+ .listitems:hover {
+     background-color: #000;
+     color: #fff;
+}
+ .dataSource {
+     font-style: italic;
+     margin-top: 25px;
+}
+ .App-logo {
+     animation: App-logo-spin infinite 20s linear;
+     height: 40vmin;
+}
+ .search-field {
+     width: 100%;
+     height: 2em;
+     font-size: 1.3em;
+     text-align: center;
+}
+ .App-header {
+     background-color: #282c34;
+     min-height: 100vh;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     font-size: calc(10px + 2vmin);
+     color: white;
+}
+ .App-link {
+     color: #61dafb;
+}
+ @keyframes App-logo-spin {
+     from {
+         transform: rotate(0deg);
+    }
+     to {
+         transform: rotate(360deg);
+    }
+}
+ #map {
+     height: 100%;
+     width: 75%;
+}
+ html, body {
+     height: 100vh;
+     margin: 0;
+     padding: 0;
+}
